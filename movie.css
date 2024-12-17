@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.nav_bar,
+.sec-nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 6px;
+    background-color: #912222;
+    color: white;
+    padding: 10px;
+
+}
+
+.nav_bar.left {
+    display: flex;
+    margin-top: 30px;
+
+
+}
+
+.nav_bar.right button {
+    display: flex;
+    margin-top: 30px;
+    background-color: #444;
+}
+
+.left img {
+    width: 50px;
+    margin-top: 18px;
+}
+
+.right img {
+    margin-inline: 22px;
+    font-size: 22px;
+}
+
+| .right button {
+    margin-inline: 22px width:80px;
+    height: 27px;
+    border: none;
+    border-radius: 2px;
+    background-color: #912222;
+    color: white;
+    margin top:20px;
+}
+
+.right i {
+    margin-inline: 2px;
+    font-size: 22px;
+}
+
+.sec-nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 9px;
+    background-color: rgb(3, 21, 54);
+    color: azure;
+
+}
+
+.sec-nav .s-left {
+    display: flex;
+
+}
+
+.s-left p {
+    display: flex;
+    margin-inline: 10px;
+}
+
+.sec-nav .s-right {
+    display: flex;
+}
+
+.s-right p {
+    margin-inline: 10px;
+}
+
+.sec-nav p:hover {
+    color: rgb(168, 35, 11);
+    cursor: pointer;
+    font: weight 600px;
+}
+
+.main img {
+    width: 100px
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-right: 870px;
+    margin-top: 30px;
+}
+
+.container .card {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.card img {
+    width: 17%;
+    transition: transform 0.5s ease;
+    margin-block: 15px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+}
+
+.container h2 {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.banner img {
+   
+    width: 100%;
+    margin-top: 44px;
+
+}
+
+.premier {
+    background-color: blue;
+    color: white;
+    padding: 33px;
+    margin-top: 44px;
+}
+
+.footer {
+    background-color: rgb(189, 140, 77);
+    padding: 33px;
+    margin-top: 44px;
+}
+
+.footer img {
+    width: 22%;
+    margin-left: 39%;
+    border-top: 6px solid rgb(255, 255, 255);
+}
+
+.footer .icon {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+    .foot-text-container i {
+        font-size: 1.5rem;
+        /* Adjusts icon size */
+        margin-bottom: 5px;
+        /* Adds space below icon */
+    }
+    .foot-text-container button:hover {
+        transform: scale(1.1);
+    }
+    .foot-text-container h2 {
+        font-size: 1rem; /* Adjusts text size */
+        color: #333; /* Text color */
+        margin: 0; /* Removes extra spacing */
+    }
+
+    .foot-text1 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 0;
+        background-color: rgb(255, 228, 228);
+        padding: 15px 20px;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(54, 14, 14, 0.2);
+        transition: transform 0.3s ease;
+        cursor: pointer;
+        
+    }
+
+    .foot-text2 {
+
+       flex-direction: column;;
+        align-items: center;
+        justify-content: center;
+        border: 0;
+        background-color: rgb(255, 228, 228);
+        padding: 15px 20px;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(54, 14, 14, 0.2);
+        transition: transform 0.3s ease;
+        cursor: pointer;
+        padding-inline: 80x;
+
+    }
+
+    .foot-text3 {
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 0;
+        background-color: rgb(255, 228, 228);
+        padding: 15px 20px;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(54, 14, 14, 0.2);
+        transition: transform 0.3s ease;
+        cursor: pointer;
+        padding-inline: 100x;
+
+    }
+
+    .foot-text4 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 0;
+        background-color: rgb(255, 228, 228);
+        padding: 15px 20px;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(54, 14, 14, 0.2);
+        transition: transform 0.3s ease;
+        cursor: pointer;
+        padding-inline: 100x;
+
+    }
+
+    .foot-text5 {
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 0;
+        background-color: rgb(255, 228, 228);
+        padding: 15px 20px;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(54, 14, 14, 0.2);
+        transition: transform 0.3s ease;
+        cursor: pointer;
+        padding-inline: 40x;
+    }
+    .foot-text:hover {
+        transform: scale(1.1);
+    }
+        {
+        .nav_bar .left,
+        .nav_bar .right,
+        .main img.card img,
+        .banner img,
+        .footer img,
+        .premier,
+        .sign,
+        .foot-text1,
+        .foot-text2,
+        .foot-text3,
+        .foot-text4,
+        .foot-text5 cursor: pointer;
+    }
+
+    i:hover {
+        cursor: pointer;
+    }
+
+    .menu {
+        margin-top: 20px;
+    }
